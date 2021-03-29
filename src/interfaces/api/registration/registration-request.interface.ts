@@ -5,5 +5,5 @@ import { IUserRegistration } from "./user-registration.interface";
  */
 export interface IRegistrationRequest {
   recaptchaToken: string;
-  userData: IUserRegistration
+  registrationData: IUserRegistration
 }
